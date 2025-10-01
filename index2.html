@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<div class="container">
+    <h2>Currency Converter</h2>
+    <form>
+        <div class="amount">
+            <p>Enter Amount</p>
+            <input value="001" type="text"/>
+        </div>
+        <div class="select-currency">
+            <div class="from">
+                <p>From</p>
+                <div class="dropdown1">
+                    <img src="https://flagsapi.com/US/shiny/64.png">
+                    <select name="from">
+
+                    </select>
+                </div>
+            </div>
+            <div class="swipe">
+                <button id="swipeBtn"><img  src="arrow.png"/></button>
+
+            </div>
+            <div class="to">
+                <p>To</p>
+                <div class="dropdown2">
+                    <img src="https://flagsapi.com/US/shiny/64.png">
+                    <select name="to">
+
+                    </select>
+                </div>
+            </div>
+        </div>
+        <button id="convertButton">Convert</button>
+        <p id="message">001 USD = 88.79 INR</p>
+    </form>
+</div>
+<script type="module" src="script2.js" ></script>
+</body>
+</html>

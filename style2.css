@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightseagreen;
+    height: 100vh;
+}
+
+.container{
+
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 5px;
+    max-width: 80vw;
+    height: 20rem;
+    width: 20rem;
+}
+
+h2{
+    margin-top: 2px;
+    margin-bottom: 15px;
+    font-family: "Arial Black";
+}
+
+.amount input{
+    color: #5a5959;
+    margin-top: 5px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.select-currency{
+    justify-content: center;
+    margin-top: 30px;
+    display: grid;
+    grid-auto-flow: column; /* lays out items in a row */
+    gap: 30px;
+}
+
+.swipe{
+    height: 2px;
+    margin-top: 40px;
+}
+
+.swipe button{
+    border: none;
+    background-color: aquamarine ;
+    cursor:pointer;
+}
+
+#convertButton:active, #swipeBtn:active {
+    transform: scale(0.90);
+    transition: transform 0.1s;
+}
+
+.swipe img{
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.dropdown1 , .dropdown2 {
+    background-color: #7ceac6;
+    border-radius: 4px;
+    padding: 5px;
+    width: 4rem;
+}
+
+
+.dropdown1 img, .dropdown2 img{
+    border-radius: 4px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.from select, .to select{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 2px;
+    width: 4rem;
+}
+
+#convertButton{
+    margin-top: 2px;
+    background-color: bisque;
+    border-color: darkgrey;
+    padding: 3px;
+    border-radius: 6px;
+    cursor:pointer;
+}
+
+#message{
+
+    margin-left: 23%;
+    margin-top: 6px;
+    background-color: #49ae8c;
+    border-radius: 5px;
+    padding: 2px;
+    width: 50%;
+}
+
